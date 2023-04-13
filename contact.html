@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Liên hệ</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./assets/animation/animate.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/carousel/flickity.min.css">
+    <link rel="stylesheet" href="./assets/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/animation/wow.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/carousel/flickity.pkgd.min.js"></script>
+    <script src="./assets/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js" data-auto-replace-svg="nest"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="header_top d-none d-xl-block">
+        <div class="container">
+            <div class="header_top_ct d-flex w-100">
+                <div class="header_top_left">
+                    <div class="contact_phone">
+                        <span>
+                            <img src="./assets/images/header_hotline.png" alt=""> Hotline : 
+                        </span>
+                        <span class="phone_number">
+                            0243.9555.111 - 0243.8777.111
+                        </span>
+                    </div>
+                </div>
+                <div class="header_top_right d-flex">
+                    <button class="open-modal-quote book_an_appointment d-flex">
+                        <div class="book_an_appointment_icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <span>Đặt lịch khám</span>
+                    </button>
+                    <div class="search_form_top">
+                        <form action="">
+                            <label for="" class="position-relative">
+                                <input type="text" placeholder="Tìm kiếm">
+                                <div class="search_icon position-absolute">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_main">
+        <div class="container h-100">
+            <div class="header_main_ct d-flex h-100 w-100">
+                <div class="header__bars d-block d-xl-none">
+                    <svg height="21px" viewBox="0 -53 384 384" width="21px" xmlns="http://www.w3.org/2000/svg"><path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path><path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path><path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path></svg>
+                </div>
+                <div class="header_logo">
+                    <a href="">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu_header h-100">
+                    <div class="menu_header_ct">
+                        <div class="menu_header-close w-100 d-flex d-xl-none align-items-center">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <ul class="header_nav header_nav_menu d-flex h-100 align-items-center">
+                            <li class="menu_item current_menu_item current_page_item">
+                                <a href="./home_page.html"><i class="fa-solid fa-house"></i></a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="./introduce.html">Về chúng tôi</a>
+                            </li>
+                            <li class="menu_item menu-item-has-children">
+                                <a href="./specialist.html">Chuyên khoa</a>
+                                <ul class="sub_menu">
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa xét nghiệm</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa chẩn đoán hình ảnh</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa nội tiết</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa Y học lâm sàng</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa nội tổng hợp</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa khám bệnh</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu_item">
+                                <a href="./service_list.html">Dịch vụ</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./price_list.html">Bảng giá</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./news_main.html">Tin tức & sự kiện</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./customer_reviews_list.html">Cảm nhận bệnh nhân</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./album_main.html">Thư viện</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-mobile-call d-block d-xl-none">
+                        <div class="contact_phone">
+                            <span>
+                                <img src="./assets/images/header_hotline.png" alt=""> Hotline : 
+                            </span>
+                            <span class="phone_number">
+                                0243.9555.111 - 0243.8777.111
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_top_right d-flex d-xl-none">
+                    <button class="open-modal-quote book_an_appointment d-flex">
+                        <div class="book_an_appointment_icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <span>Đặt lịch khám</span>
+                    </button>
+                    <div class="search_form_top">
+                        <form action="">
+                            <label for="" class="position-relative">
+                                <input type="text" placeholder="Tìm kiếm">
+                                <div class="search_icon position-absolute">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- form đặt lịch hẹn -->
+<div class="modal_quote hide book_form_m">
+    <div class="book_form_m_bg">
+        <div class="book_form_m_close_icon modal_quote__header">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="93" viewBox="0 0 93 93">
+                <defs>
+                    <style>
+                    .cls-1 {
+                        fill-rule: evenodd;
+                        filter: url(#filter);
+                    }
+                    </style>
+                    <filter id="filter" x="1505.94" y="121.938" width="14.12" height="14.125" filterUnits="userSpaceOnUse">
+                    <feFlood result="flood" flood-color="#fff"/>
+                    <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+                    <feBlend result="blend" in2="SourceGraphic"/>
+                    </filter>
+                </defs>
+                <image width="93" height="93" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdCAYAAADHcWrDAAAEKUlEQVR4nO2dyYsXRxSAP8d/wbNBDwpq9BAJhCCiF5UQxN1DUFHBDfXmRpBo3AUPOcQNFUYZJYqICHpxRVwQRVDcMRCDccUl6riOUvrKGZ2tf/2rqq7ufh8Mc5pXrz+KnlpeV3XotH1od2ANMAjoiOKdGuAq8BPQBfgd+E+1+6WmSfRbwELgG2AUcKyIDxwDNS3k8AbYBfQHvgNqgVflU+OPlqQ35RwwHugKrAb+L8AzZ0570i23gTlAZ+BX4EGxtfglqXTLY2Cp/NOdC9zP4TNnTqXSLc+AVU3kPyyWFr+klW55LvK7ynDzWQ6eOXOqlW55KsPNbsAG4G2+tfjFlXSLmVhNAfoAByJ83ihwLd1yCRgiP9fzp8UvvqRbTG/vBczT930jvqUbXgMrgR7A3gDtRU8I6RaztjMUGAb8m19l1RNSumUP0BNYB7zPoP3MyUI6MsScBgwEbkbkIwhZSbccAXoDa8vU67OWjsxqp8tGSik2UGKQbtkPfCvv/EITk3Rk4cyMbmYALyPIxwuxSbf8CXwPXIkjHbfEKt1wQcTvjiAXp8QsHdkeHCnLCO8iyMcJsUtHhpIrpS6nEDtVeZBuOQj0Bc7EkU568iTd8A/QD9gaQS6pyZt0pAbHlIX8ltdZbB6lI7IXARNk6ThX5FW6xVSfDQYexZFOMvIu3XAY+BH4O4JcElEE6YbLwA9SBhg9RZFuuAsMyEO1cZGkI5sj5h2/L4JcWqVo0g31wAgp946SIkpHhpFjgboIcmlGUaUjC2TjZFgZFUWWjoifGFuPL7p0mvT4nRHk8pEySEfE/xJLhVlZpCP/XMcAh7JOpEzSkc3u4cDpLJMom3TDE+Bn4EZWCZRROrLtNySr7b+ySkd6uunxL0I3XGbpyLt9UugdqLJLN+wAFoRsUKV/YoVUDgdBpTcyEzgaoiGV3oiZtY4O8WmOSv+Se3LWjdcKA5XenFPALJ8NqPSWWQ9s8RVcpbfODF/VBSq9deqlTPuJ68AqvW1MAdNU10FVevuYGesmlwFVejJmA9dcBVPpyXgu+6xOPsFR6ckxK5LLXARS6ZVhzik7W20QlV4Z5nTWyfI7NSq9cs4Dy6sJoNLTsVQ+Lk6FSk/Ha5k0NaT5a5WenhNyBmXFqPTqmA/cqTSCSq+Ox3JuQUWo9Oox9e/HK4mi0qvnvWxqJ14iUOluMGP3zUkjqXR3LEx6fYVKd8cdOZemXVS6W9YkqZtR6W6plyWCNlHp7tnc3uEQKt09Zl1mSVtRVbofatu6IUGl+8FcxLK4tcgq3R91cjdIM1S6PxpkT7UZKt0vf7X06aRK90uD3G75BSrdP7VfH8av0v3zUo4m/4xKD8M6WSL4iEoPg7k0d5ttSaWH4w/bkkoPx0XgJCo9OBtR6cExk6WnKj0s5uOCOpUeGlj8AVTvsV6jOBbzAAAAAElFTkSuQmCC"/>
+                <path id="Rectangle_566_copy" data-name="Rectangle 566 copy" class="cls-1" d="M1507.34,121.928l12.73,12.728-1.41,1.414-12.73-12.728Zm11.27,0.063-12.62,12.615,1.4,1.4,12.62-12.615Z" transform="translate(-1442 -108)"/>
+            </svg>
+        </div>
+        <div class="book_form_m_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-5 col-lg-5 col-xl-5">
+                        <div class="book_form_m_img img h-100 w-100">
+                            <img src="./assets/images/phòng khám đa khoa đỗ gia popup.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7 col-lg-7 col-xl-7">
+                        <div class="book_form_m_main">
+                            <div class="book_form_m_title">
+                                <h2 class="book_form_m_main_title">Đặt lịch hẹn</h2>
+                                <p>Đặt hẹn ngay để nhận tư vấn và xếp lịch khám kịp thời</p>
+                            </div>
+                            <div class="form">
+                                <label for="" class="position-relative">
+                                    <input type="text" placeholder="Họ và tên *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-user"></i>                                 
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <input type="text" placeholder="Điện thoại *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-mobile-screen"></i>                                                 
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <input type="email" placeholder="Email *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-envelope"></i>                                    
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <input type="datetime" placeholder="Ngày tới khám *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-regular fa-calendar-days"></i>                                   
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <textarea name="" id="" placeholder="Mong muốn của bạn"></textarea>
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-pen"></i>                      
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <div class="gui">
+                                        <a href="">Gửi Đi</a>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+
+<!-- các nút bên trái -->
+<div class="main_btn">
+    <ul class="main_btn">
+        <li class="main_btn_item">
+            <a href="" class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_điện thoại.png" alt="">
+            </a>
+        </li>
+        <li class="main_btn_item open-modal-quote">
+            <div class="a d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_lịch.png" alt="">
+            </div>
+        </li>
+        <li class="main_btn_item">
+            <a href="" class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_facebook.png" alt="">
+            </a>
+        </li>
+        <li class="main_btn_item">
+            <a href="" class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_ig.png" alt="">
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="overlay"></div>
+
+<main id="contact">
+
+    <!-- phần nav điều hướng các trang -->
+    <section class="navigation-bar">
+        <div class="navigation-bar-bg img">
+            <img src="./assets/images/banner liên hệ.png" alt="">
+        </div>
+    </section>
+
+    <!-- -->
+    <section class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="main-title wow fadeInUp" data-wow-delay="0.5">
+                        <h2 class="sec_title">Thông tin liên hệ</h2>
+                    </div>
+                    <div class="contact_content wow fadeInUp" data-wow-delay="0.5">
+                        <ul>
+                            <li class="contact_content_item d-flex align-items-center">
+                                <div class="contact_infor_icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-house"></i>
+                                </div>
+                                <h4 class="contact_infor_title">Phòng Khám Đa Khoa Đỗ gia</h4>
+                            </li>
+                            <li class="contact_content_item d-flex align-items-center">
+                                <div class="contact_infor_icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                                <span>
+                                    144 phố Hồng Tiến, phường Bồ Đề, quận Long Biên, Hà Nội
+                                </span>
+                            </li>
+                            <li class="contact_content_item d-flex align-items-center">
+                                <div class="contact_infor_icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <span>
+                                    Điện thoại: (+84) 985 111 666
+                                </span>
+                            </li>
+                            <li class="contact_content_item d-flex align-items-center">
+                                <div class="contact_infor_icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <span>
+                                    Email: dakhoadogia@gmail.com
+                                </span>
+                            </li>
+                            <li class="contact_content_item d-flex align-items-center">
+                                <div class="contact_infor_icon d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-earth-americas"></i>
+                                </div>
+                                <span>
+                                    Website: www.phongkhamdakhoadogia.vn
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="contact_form wow fadeInUp" data-wow-delay="0.5">
+                        <h3 class="contact_form_title">Gửi liên hệ</h3>
+                        <div class="form">
+                            <div class="row">
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <label for="" class="position-relative">
+                                        <input type="text" placeholder="Họ tên (*)">
+                                        <div class="contact_form_icon d-flex justify-content-center position-absolute img">
+                                            <img src="./assets/images/lienhe_icon_hoten.png" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-12 col-md-6 col-lg-12 col-xl-6">
+                                    <label for="" class="position-relative">
+                                        <input type="text" placeholder="Điện thoại (*)">
+                                        <div class="contact_form_icon d-flex justify-content-center position-absolute img">
+                                            <img src="./assets/images/lienhe_icon_phone.png" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-12">
+                                    <label for="" class="position-relative">
+                                        <input type="text" placeholder="Email (*)">
+                                        <div class="contact_form_icon d-flex justify-content-center position-absolute img">
+                                            <img src="./assets/images/lienhe_icon_email.png" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-12">
+                                    <label for="" class="position-relative">
+                                        <textarea placeholder="Nội dung (*)"></textarea>
+                                        <div class="contact_form_icon d-flex justify-content-center position-absolute img">
+                                            <img src="./assets/images/lienhe_icon_noidung.png" alt="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="col-12">
+                                    <label for="" class="noborder d-flex align-items-center">
+                                        <div class="gui">
+                                            <a href="">
+                                                Gửi liên hệ
+                                            </a>
+                                        </div>
+                                        <div class="button">
+                                            <a href="">
+                                                Xóa nội dung
+                                            </a>
+                                        </div>
+                                    </label>
+                                    <span class="tb">
+                                        (*): là các phần quý khách hàng bắt buộc phải điền. Xin cảm ơn!
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="main-title h-100 wow fadeInUp" data-wow-delay="0.5">
+                        <h2 class="sec_title">BẢN ĐỒ GOOGLE MAP</h2>
+                        <div class="contact_map w-100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.253548923491!2d106.70076291532088!3d10.791882561857939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317528b454e1fbf1%3A0x7329b35128a25e90!2zcTEsIDEgTmd1eeG7hW4gxJDDrG5oIENoaeG7g3UsIMSQYSBLYW8sIFF14bqtbiAxLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2sus!4v1652523891199!5m2!1svi!2sus" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Css Footer -->
+<footer style="background-image: url(./assets/images/bg_footer.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Thông tin liên hệ
+                </div>
+                <div class="footer-content wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_địachỉ.png" alt="">                                
+                            </div>
+                            <span>
+                                144 phố Hồng Tiến, phường Bồ Đề, quận Long Biên, Hà Nội.
+                            </span>
+                        </li>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_điện thoại.png" alt="">                  
+                            </div>
+                            <span>
+                                Điện thoại : +84-985111666
+                            </span>
+                        </li>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_email.png" alt="">                      
+                            </div>
+                            <span>
+                                Email: dakhoadogia@gmail.com
+                            </span>
+                        </li>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_website.png" alt="">                              
+                            </div>
+                            <span>
+                                Website: phongkhamdakhoadogia.vn
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="footer_map">
+                        <div class="footer-content_img">
+                            <img src="./assets/images/footer_xem_ban_do.png" alt="">
+                            <span>Xem bản đồ Google maps</span>                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Chuyên khoa - dịch vụ
+                </div>
+                <div class="footer-content footer_service wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Nội tiết, Tiêu hóa</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Đái tháo đường</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Bướu cổ</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Nội tổng hợp, Tim mạch</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Siêu âm, X-Quang</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Thời gian làm việc
+                </div>
+                <div class="footer-content wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_giờ mở cửa.png" alt="">                               
+                            </div>
+                            <span>Giờ mở cửa: 8h đến 20h (tất cả các ngày trong tuần)</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_hotline d-flex wow fadeInUp" data-wow-delay="0.5">
+                    <div class="footer-content_img">
+                        <img src="./assets/images/footer_hotline.png" alt="">                                                    
+                    </div>
+                    <span>
+                        HOTLINE: <br>
+                        <b> 0243.9555.111 - 0243.8777.111</b>
+                    </span> 
+                </div>
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Mạng xã hội
+                </div>
+                <div class="footer-content social_network wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/footer_facebook.png" alt="">                             
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/footer_youtube.png" alt="">                                 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/footer_twiter.png" alt="">                             
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Đặt lịch khám
+                </div>
+                <div class="footer_form wow fadeInUp" data-wow-delay="0.5">
+                    <div class="form">
+                        <label for="" class="position-relative">
+                            <input type="text" placeholder="Họ và tên *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-user"></i>                                 
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <input type="text" placeholder="Điện thoại *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-mobile-screen"></i>                                                
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <input type="email" placeholder="Email *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-envelope"></i>                                    
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <input type="datetime" placeholder="Ngày tới khám *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-regular fa-calendar-days"></i>                                   
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <textarea name="" id="" placeholder="Mong muốn của bạn"></textarea>
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-pen"></i>                      
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <div  class="gui">
+                                <a href="">Gửi đi</a>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer_infor wow fadeInUp" data-wow-delay="0.5">
+                    Copyright @2022 Phòng khám đa khoa Đỗ Gia - All Rights Reseverd. Thiết kế website và SEO - Tất Thành
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- backtotop -->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+</div>
+
+</body>
+</html>

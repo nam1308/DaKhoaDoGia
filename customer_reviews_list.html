@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cảm nhận khách hàng - Danh sách</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link CSS -->
+    <link rel="stylesheet" href="./assets/animation/animate.css">
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/carousel/flickity.min.css">
+    <link rel="stylesheet" href="./assets/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./assets/css/slick.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/animation/wow.min.js"></script>
+    <script src="./assets/bootstrap/bootstrap.min.js"></script>
+    <script src="./assets/carousel/flickity.pkgd.min.js"></script>
+    <script src="./assets/fancybox/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/slick.min.js"></script>
+
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://use.fontawesome.com/releases/v6.2.0/js/all.js" data-auto-replace-svg="nest"></script>    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="header_top d-none d-xl-block">
+        <div class="container">
+            <div class="header_top_ct d-flex w-100">
+                <div class="header_top_left">
+                    <div class="contact_phone">
+                        <span>
+                            <img src="./assets/images/header_hotline.png" alt=""> Hotline : 
+                        </span>
+                        <span class="phone_number">
+                            0243.9555.111 - 0243.8777.111
+                        </span>
+                    </div>
+                </div>
+                <div class="header_top_right d-flex">
+                    <button class="open-modal-quote book_an_appointment d-flex">
+                        <div class="book_an_appointment_icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <span>Đặt lịch khám</span>
+                    </button>
+                    <div class="search_form_top">
+                        <form action="">
+                            <label for="" class="position-relative">
+                                <input type="text" placeholder="Tìm kiếm">
+                                <div class="search_icon position-absolute">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header_main">
+        <div class="container h-100">
+            <div class="header_main_ct d-flex h-100 w-100">
+                <div class="header__bars d-block d-xl-none">
+                    <svg height="21px" viewBox="0 -53 384 384" width="21px" xmlns="http://www.w3.org/2000/svg"><path d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path><path d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path><path d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0"></path></svg>
+                </div>
+                <div class="header_logo">
+                    <a href="">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu_header h-100">
+                    <div class="menu_header_ct">
+                        <div class="menu_header-close w-100 d-flex d-xl-none align-items-center">
+                            <i class="fa-solid fa-xmark"></i>
+                        </div>
+                        <ul class="header_nav header_nav_menu d-flex h-100 align-items-center">
+                            <li class="menu_item current_menu_item current_page_item">
+                                <a href="./home_page.html"><i class="fa-solid fa-house"></i></a>
+                            </li>
+                            <li class="menu_item">
+                                <a href="./introduce.html">Về chúng tôi</a>
+                            </li>
+                            <li class="menu_item menu-item-has-children">
+                                <a href="./specialist.html">Chuyên khoa</a>
+                                <ul class="sub_menu">
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa xét nghiệm</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa chẩn đoán hình ảnh</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa nội tiết</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa Y học lâm sàng</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa nội tổng hợp</a>
+                                    </li>
+                                    <li class="menu_item">
+                                        <a href="./specialist_detail.html">Khoa khám bệnh</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu_item">
+                                <a href="./service_list.html">Dịch vụ</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./price_list.html">Bảng giá</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./news_main.html">Tin tức & sự kiện</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./customer_reviews_list.html">Cảm nhận bệnh nhân</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./album_main.html">Thư viện</a>
+                            </li>
+                            <li class="menu_item ">
+                                <a href="./contact.html">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="menu-mobile-call d-block d-xl-none">
+                        <div class="contact_phone">
+                            <span>
+                                <img src="./assets/images/header_hotline.png" alt=""> Hotline : 
+                            </span>
+                            <span class="phone_number">
+                                0243.9555.111 - 0243.8777.111
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_top_right d-flex d-xl-none">
+                    <button class="open-modal-quote book_an_appointment d-flex">
+                        <div class="book_an_appointment_icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <span>Đặt lịch khám</span>
+                    </button>
+                    <div class="search_form_top">
+                        <form action="">
+                            <label for="" class="position-relative">
+                                <input type="text" placeholder="Tìm kiếm">
+                                <div class="search_icon position-absolute">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </div>
+                            </label>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- form đặt lịch hẹn -->
+<div class="modal_quote hide book_form_m">
+    <div class="book_form_m_bg">
+        <div class="book_form_m_close_icon modal_quote__header">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="93" viewBox="0 0 93 93">
+                <defs>
+                    <style>
+                    .cls-1 {
+                        fill-rule: evenodd;
+                        filter: url(#filter);
+                    }
+                    </style>
+                    <filter id="filter" x="1505.94" y="121.938" width="14.12" height="14.125" filterUnits="userSpaceOnUse">
+                    <feFlood result="flood" flood-color="#fff"/>
+                    <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+                    <feBlend result="blend" in2="SourceGraphic"/>
+                    </filter>
+                </defs>
+                <image width="93" height="93" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdCAYAAADHcWrDAAAEKUlEQVR4nO2dyYsXRxSAP8d/wbNBDwpq9BAJhCCiF5UQxN1DUFHBDfXmRpBo3AUPOcQNFUYZJYqICHpxRVwQRVDcMRCDccUl6riOUvrKGZ2tf/2rqq7ufh8Mc5pXrz+KnlpeV3XotH1od2ANMAjoiOKdGuAq8BPQBfgd+E+1+6WmSfRbwELgG2AUcKyIDxwDNS3k8AbYBfQHvgNqgVflU+OPlqQ35RwwHugKrAb+L8AzZ0570i23gTlAZ+BX4EGxtfglqXTLY2Cp/NOdC9zP4TNnTqXSLc+AVU3kPyyWFr+klW55LvK7ynDzWQ6eOXOqlW55KsPNbsAG4G2+tfjFlXSLmVhNAfoAByJ83ihwLd1yCRgiP9fzp8UvvqRbTG/vBczT930jvqUbXgMrgR7A3gDtRU8I6RaztjMUGAb8m19l1RNSumUP0BNYB7zPoP3MyUI6MsScBgwEbkbkIwhZSbccAXoDa8vU67OWjsxqp8tGSik2UGKQbtkPfCvv/EITk3Rk4cyMbmYALyPIxwuxSbf8CXwPXIkjHbfEKt1wQcTvjiAXp8QsHdkeHCnLCO8iyMcJsUtHhpIrpS6nEDtVeZBuOQj0Bc7EkU568iTd8A/QD9gaQS6pyZt0pAbHlIX8ltdZbB6lI7IXARNk6ThX5FW6xVSfDQYexZFOMvIu3XAY+BH4O4JcElEE6YbLwA9SBhg9RZFuuAsMyEO1cZGkI5sj5h2/L4JcWqVo0g31wAgp946SIkpHhpFjgboIcmlGUaUjC2TjZFgZFUWWjoifGFuPL7p0mvT4nRHk8pEySEfE/xJLhVlZpCP/XMcAh7JOpEzSkc3u4cDpLJMom3TDE+Bn4EZWCZRROrLtNySr7b+ySkd6uunxL0I3XGbpyLt9UugdqLJLN+wAFoRsUKV/YoVUDgdBpTcyEzgaoiGV3oiZtY4O8WmOSv+Se3LWjdcKA5XenFPALJ8NqPSWWQ9s8RVcpbfODF/VBSq9deqlTPuJ68AqvW1MAdNU10FVevuYGesmlwFVejJmA9dcBVPpyXgu+6xOPsFR6ckxK5LLXARS6ZVhzik7W20QlV4Z5nTWyfI7NSq9cs4Dy6sJoNLTsVQ+Lk6FSk/Ha5k0NaT5a5WenhNyBmXFqPTqmA/cqTSCSq+Ox3JuQUWo9Oox9e/HK4mi0qvnvWxqJ14iUOluMGP3zUkjqXR3LEx6fYVKd8cdOZemXVS6W9YkqZtR6W6plyWCNlHp7tnc3uEQKt09Zl1mSVtRVbofatu6IUGl+8FcxLK4tcgq3R91cjdIM1S6PxpkT7UZKt0vf7X06aRK90uD3G75BSrdP7VfH8av0v3zUo4m/4xKD8M6WSL4iEoPg7k0d5ttSaWH4w/bkkoPx0XgJCo9OBtR6cExk6WnKj0s5uOCOpUeGlj8AVTvsV6jOBbzAAAAAElFTkSuQmCC"/>
+                <path id="Rectangle_566_copy" data-name="Rectangle 566 copy" class="cls-1" d="M1507.34,121.928l12.73,12.728-1.41,1.414-12.73-12.728Zm11.27,0.063-12.62,12.615,1.4,1.4,12.62-12.615Z" transform="translate(-1442 -108)"/>
+            </svg>
+        </div>
+        <div class="book_form_m_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-5 col-lg-5 col-xl-5">
+                        <div class="book_form_m_img img h-100 w-100">
+                            <img src="./assets/images/phòng khám đa khoa đỗ gia popup.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-7 col-lg-7 col-xl-7">
+                        <div class="book_form_m_main">
+                            <div class="book_form_m_title">
+                                <h2 class="book_form_m_main_title">Đặt lịch hẹn</h2>
+                                <p>Đặt hẹn ngay để nhận tư vấn và xếp lịch khám kịp thời</p>
+                            </div>
+                            <div class="form">
+                                <label for="" class="position-relative">
+                                    <input type="text" placeholder="Họ và tên *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-user"></i>                                 
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <input type="text" placeholder="Điện thoại *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-mobile-screen"></i>                                                 
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <input type="email" placeholder="Email *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-envelope"></i>                                    
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <input type="datetime" placeholder="Ngày tới khám *">
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-regular fa-calendar-days"></i>                                   
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <textarea name="" id="" placeholder="Mong muốn của bạn"></textarea>
+                                    <div class="footer_form_icon position-absolute">
+                                        <i class="fa-solid fa-pen"></i>                      
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative">
+                                    <div class="gui">
+                                        <a href="">Gửi Đi</a>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</div>
+
+<!-- các nút bên trái -->
+<div class="main_btn">
+    <ul class="main_btn">
+        <li class="main_btn_item">
+            <a href="" class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_điện thoại.png" alt="">
+            </a>
+        </li>
+        <li class="main_btn_item open-modal-quote">
+            <div class="a d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_lịch.png" alt="">
+            </div>
+        </li>
+        <li class="main_btn_item">
+            <a href="" class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_facebook.png" alt="">
+            </a>
+        </li>
+        <li class="main_btn_item">
+            <a href="" class="d-flex align-items-center justify-content-center">
+                <img src="./assets/images/main_btn_ig.png" alt="">
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="overlay"></div>
+
+<main id="customer_reviews_list">
+
+    <!-- phần nav điều hướng các trang -->
+    <section class="navigation-bar">
+        <div class="navigation-bar-bg img">
+            <img src="./assets/images/banner cảm nhận khách hàng - danh sách.png" alt="">
+        </div>
+    </section>
+
+    <!-- nội dung page-->
+    <section class="customer_reviews_list">
+        <div class="container">
+            <div class="main-title wow fadeInUp" data-wow-delay="0.5">
+                <h2 class="sec_title">Cảm nhận bệnh nhân</h2>
+                <p>Danh sách toàn bộ các Khoa & Chuyên khoa tại Phòng khám đa khoa Đỗ Gia</p>
+            </div>
+            <div class="customer_reviews_list_content">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                        <div class="customer_reviews_item position-relative wow fadeInUp" data-wow-delay="0.5">
+                            <div class="customer_reviews_infor d-flex align-items-center">
+                                <div class="customer_reviews_img img">
+                                    <img src="./assets/images/Ngô Thùy An.png" alt="">
+                                </div>
+                                <div class="customer_reviews_title">
+                                    <h3 class="customer_reviews_title_name">Ngô Thùy An</h3>
+                                    <p class="address">
+                                        123 Ngô Quyền - Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="customer_reviews_txt text-line">
+                                Quá trình vào viện cấp cứu và điều trị tại khoa Hồi sức cấp cứu (HSCC). Bệnh viện đa khoa Đỗ Gia, cảm nhận được sự nhiệt tình, tấm lòng quý mến của đội ngũ y, bác sĩ, nhân viên y tế của khoa, trước khi ra viện đã gửi thư cảm ơn tập thể khoa
+                            </div>
+                            <div class="customer_reviews_item_btn item_btn position-absolute">
+                                <a href="./customer_reviews_detail.html"> Xem thêm <i class="fa-solid fa-angles-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                        <div class="customer_reviews_item position-relative wow fadeInUp" data-wow-delay="0.5">
+                            <div class="customer_reviews_infor d-flex align-items-center">
+                                <div class="customer_reviews_img img">
+                                    <img src="./assets/images/Ngô Thùy An.png" alt="">
+                                </div>
+                                <div class="customer_reviews_title">
+                                    <h3 class="customer_reviews_title_name">Ngô Thùy An</h3>
+                                    <p class="address">
+                                        123 Ngô Quyền - Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="customer_reviews_txt text-line">
+                                Quá trình vào viện cấp cứu và điều trị tại khoa Hồi sức cấp cứu (HSCC). Bệnh viện đa khoa Đỗ Gia, cảm nhận được sự nhiệt tình, tấm lòng quý mến của đội ngũ y, bác sĩ, nhân viên y tế của khoa, trước khi ra viện đã gửi thư cảm ơn tập thể khoa
+                            </div>
+                            <div class="customer_reviews_item_btn item_btn position-absolute">
+                                <a href="./customer_reviews_detail.html"> Xem thêm <i class="fa-solid fa-angles-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                        <div class="customer_reviews_item position-relative wow fadeInUp" data-wow-delay="0.5">
+                            <div class="customer_reviews_infor d-flex align-items-center">
+                                <div class="customer_reviews_img img">
+                                    <img src="./assets/images/Ngô Thùy An.png" alt="">
+                                </div>
+                                <div class="customer_reviews_title">
+                                    <h3 class="customer_reviews_title_name">Ngô Thùy An</h3>
+                                    <p class="address">
+                                        123 Ngô Quyền - Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="customer_reviews_txt text-line">
+                                Quá trình vào viện cấp cứu và điều trị tại khoa Hồi sức cấp cứu (HSCC). Bệnh viện đa khoa Đỗ Gia, cảm nhận được sự nhiệt tình, tấm lòng quý mến của đội ngũ y, bác sĩ, nhân viên y tế của khoa, trước khi ra viện đã gửi thư cảm ơn tập thể khoa
+                            </div>
+                            <div class="customer_reviews_item_btn item_btn position-absolute">
+                                <a href="./customer_reviews_detail.html"> Xem thêm <i class="fa-solid fa-angles-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                        <div class="customer_reviews_item position-relative wow fadeInUp" data-wow-delay="0.5">
+                            <div class="customer_reviews_infor d-flex align-items-center">
+                                <div class="customer_reviews_img img">
+                                    <img src="./assets/images/Ngô Thùy An.png" alt="">
+                                </div>
+                                <div class="customer_reviews_title">
+                                    <h3 class="customer_reviews_title_name">Ngô Thùy An</h3>
+                                    <p class="address">
+                                        123 Ngô Quyền - Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="customer_reviews_txt text-line">
+                                Quá trình vào viện cấp cứu và điều trị tại khoa Hồi sức cấp cứu (HSCC). Bệnh viện đa khoa Đỗ Gia, cảm nhận được sự nhiệt tình, tấm lòng quý mến của đội ngũ y, bác sĩ, nhân viên y tế của khoa, trước khi ra viện đã gửi thư cảm ơn tập thể khoa
+                            </div>
+                            <div class="customer_reviews_item_btn item_btn position-absolute">
+                                <a href="./customer_reviews_detail.html"> Xem thêm <i class="fa-solid fa-angles-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                        <div class="customer_reviews_item position-relative wow fadeInUp" data-wow-delay="0.5">
+                            <div class="customer_reviews_infor d-flex align-items-center">
+                                <div class="customer_reviews_img img">
+                                    <img src="./assets/images/Ngô Thùy An.png" alt="">
+                                </div>
+                                <div class="customer_reviews_title">
+                                    <h3 class="customer_reviews_title_name">Ngô Thùy An</h3>
+                                    <p class="address">
+                                        123 Ngô Quyền - Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="customer_reviews_txt text-line">
+                                Quá trình vào viện cấp cứu và điều trị tại khoa Hồi sức cấp cứu (HSCC). Bệnh viện đa khoa Đỗ Gia, cảm nhận được sự nhiệt tình, tấm lòng quý mến của đội ngũ y, bác sĩ, nhân viên y tế của khoa, trước khi ra viện đã gửi thư cảm ơn tập thể khoa
+                            </div>
+                            <div class="customer_reviews_item_btn item_btn position-absolute">
+                                <a href="./customer_reviews_detail.html"> Xem thêm <i class="fa-solid fa-angles-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+                        <div class="customer_reviews_item position-relative wow fadeInUp" data-wow-delay="0.5">
+                            <div class="customer_reviews_infor d-flex align-items-center">
+                                <div class="customer_reviews_img img">
+                                    <img src="./assets/images/Ngô Thùy An.png" alt="">
+                                </div>
+                                <div class="customer_reviews_title">
+                                    <h3 class="customer_reviews_title_name">Ngô Thùy An</h3>
+                                    <p class="address">
+                                        123 Ngô Quyền - Hà Nội
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="customer_reviews_txt text-line">
+                                Quá trình vào viện cấp cứu và điều trị tại khoa Hồi sức cấp cứu (HSCC). Bệnh viện đa khoa Đỗ Gia, cảm nhận được sự nhiệt tình, tấm lòng quý mến của đội ngũ y, bác sĩ, nhân viên y tế của khoa, trước khi ra viện đã gửi thư cảm ơn tập thể khoa
+                            </div>
+                            <div class="customer_reviews_item_btn item_btn position-absolute">
+                                <a href="./customer_reviews_detail.html"> Xem thêm <i class="fa-solid fa-angles-right"></i> </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gửi cảm nhận bệnh nhân -->
+    <section class="customer_reviews_form">
+        <div class="container">
+            <div class="form_customer_reviews" style="background-image: url(./assets/images/banner\ về\ chúng\ tôi.png);">
+                <div class="form_customer_reviews_bg">
+                    <div class="main-title wow fadeInUp" data-wow-delay="0.5">
+                        <h2 class="sec_title">Gửi cảm nhận bệnh nhân</h2>
+                        <p>Gửi cảm nhận của bạn đến phòng khám đa khoa Đỗ Gia</p>
+                    </div>
+                    <div class="form">
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-6">
+                                <label for="" class="position-relative wow fadeInUp" data-wow-delay="0.5">
+                                    <input type="text" placeholder="Họ và tên *">
+                                    <div class="form_customer_reviews_icon d-flex align-items-center justify-content-center position-absolute">
+                                        <i class="fa-solid fa-user"></i>
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative wow fadeInUp" data-wow-delay="0.5">
+                                    <input type="number" placeholder="Điện thoại *">
+                                    <div class="form_customer_reviews_icon d-flex align-items-center justify-content-center position-absolute">
+                                        <i class="fa-solid fa-mobile-screen"></i>
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative wow fadeInUp" data-wow-delay="0.5">
+                                    <input type="email" placeholder="Email">
+                                    <div class="form_customer_reviews_icon d-flex align-items-center justify-content-center position-absolute">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+                                </label>
+                                <label for="" class="position-relative wow fadeInUp" data-wow-delay="0.5">
+                                    <input type="text" placeholder="Địa chỉ">
+                                    <div class="form_customer_reviews_icon d-flex align-items-center justify-content-center position-absolute">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-lg-6 col-xl-6">
+                                <label for="" class="position-relative w-100 h-100 textarea">
+                                    <textarea name="" id="" placeholder="Cảm nhận của bạn" class="h-100"></textarea>
+                                    <div class="form_customer_reviews_icon d-flex align-items-center justify-content-center position-absolute">
+                                        <i class="fa-solid fa-pen"></i>
+                                    </div>
+                                </label>
+                            </div>
+                            <div class="col-12">
+                                <div class="gui d-flex align-items-center justify-content-center">
+                                    <a href="">Gửi đi</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Css Footer -->
+<footer style="background-image: url(./assets/images/bg_footer.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Thông tin liên hệ
+                </div>
+                <div class="footer-content wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_địachỉ.png" alt="">                                
+                            </div>
+                            <span>
+                                144 phố Hồng Tiến, phường Bồ Đề, quận Long Biên, Hà Nội.
+                            </span>
+                        </li>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_điện thoại.png" alt="">                  
+                            </div>
+                            <span>
+                                Điện thoại : +84-985111666
+                            </span>
+                        </li>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_email.png" alt="">                      
+                            </div>
+                            <span>
+                                Email: dakhoadogia@gmail.com
+                            </span>
+                        </li>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_website.png" alt="">                              
+                            </div>
+                            <span>
+                                Website: phongkhamdakhoadogia.vn
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="footer_map">
+                        <div class="footer-content_img">
+                            <img src="./assets/images/footer_xem_ban_do.png" alt="">
+                            <span>Xem bản đồ Google maps</span>                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Chuyên khoa - dịch vụ
+                </div>
+                <div class="footer-content footer_service wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Nội tiết, Tiêu hóa</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Đái tháo đường</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Bướu cổ</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Nội tổng hợp, Tim mạch</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-caret-right"></i>
+                            <a href="">Siêu âm, X-Quang</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Thời gian làm việc
+                </div>
+                <div class="footer-content wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <div class="footer-content_img">
+                                <img src="./assets/images/footer_giờ mở cửa.png" alt="">                               
+                            </div>
+                            <span>Giờ mở cửa: 8h đến 20h (tất cả các ngày trong tuần)</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_hotline d-flex wow fadeInUp" data-wow-delay="0.5">
+                    <div class="footer-content_img">
+                        <img src="./assets/images/footer_hotline.png" alt="">                                                    
+                    </div>
+                    <span>
+                        HOTLINE: <br>
+                        <b> 0243.9555.111 - 0243.8777.111</b>
+                    </span> 
+                </div>
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Mạng xã hội
+                </div>
+                <div class="footer-content social_network wow fadeInUp" data-wow-delay="0.5">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/footer_facebook.png" alt="">                             
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/footer_youtube.png" alt="">                                 
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./assets/images/footer_twiter.png" alt="">                             
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-title wow fadeInUp" data-wow-delay="0.5">
+                    Đặt lịch khám
+                </div>
+                <div class="footer_form wow fadeInUp" data-wow-delay="0.5">
+                    <div class="form">
+                        <label for="" class="position-relative">
+                            <input type="text" placeholder="Họ và tên *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-user"></i>                                 
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <input type="text" placeholder="Điện thoại *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-mobile-screen"></i>                                                
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <input type="email" placeholder="Email *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-envelope"></i>                                    
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <input type="datetime" placeholder="Ngày tới khám *">
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-regular fa-calendar-days"></i>                                   
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <textarea name="" id="" placeholder="Mong muốn của bạn"></textarea>
+                            <div class="footer_form_icon position-absolute">
+                                <i class="fa-solid fa-pen"></i>                      
+                            </div>
+                        </label>
+                        <label for="" class="position-relative">
+                            <div  class="gui">
+                                <a href="">Gửi đi</a>
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="footer_infor wow fadeInUp" data-wow-delay="0.5">
+                    Copyright @2022 Phòng khám đa khoa Đỗ Gia - All Rights Reseverd. Thiết kế website và SEO - Tất Thành
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- backtotop -->
+<div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+    </svg>
+</div>
+
+</body>
+</html>

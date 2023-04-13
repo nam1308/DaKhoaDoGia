@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93" height="93" viewBox="0 0 93 93">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="1505.94" y="121.938" width="14.12" height="14.125" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <image width="93" height="93" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABdCAYAAADHcWrDAAAEKUlEQVR4nO2dyYsXRxSAP8d/wbNBDwpq9BAJhCCiF5UQxN1DUFHBDfXmRpBo3AUPOcQNFUYZJYqICHpxRVwQRVDcMRCDccUl6riOUvrKGZ2tf/2rqq7ufh8Mc5pXrz+KnlpeV3XotH1od2ANMAjoiOKdGuAq8BPQBfgd+E+1+6WmSfRbwELgG2AUcKyIDxwDNS3k8AbYBfQHvgNqgVflU+OPlqQ35RwwHugKrAb+L8AzZ0570i23gTlAZ+BX4EGxtfglqXTLY2Cp/NOdC9zP4TNnTqXSLc+AVU3kPyyWFr+klW55LvK7ynDzWQ6eOXOqlW55KsPNbsAG4G2+tfjFlXSLmVhNAfoAByJ83ihwLd1yCRgiP9fzp8UvvqRbTG/vBczT930jvqUbXgMrgR7A3gDtRU8I6RaztjMUGAb8m19l1RNSumUP0BNYB7zPoP3MyUI6MsScBgwEbkbkIwhZSbccAXoDa8vU67OWjsxqp8tGSik2UGKQbtkPfCvv/EITk3Rk4cyMbmYALyPIxwuxSbf8CXwPXIkjHbfEKt1wQcTvjiAXp8QsHdkeHCnLCO8iyMcJsUtHhpIrpS6nEDtVeZBuOQj0Bc7EkU568iTd8A/QD9gaQS6pyZt0pAbHlIX8ltdZbB6lI7IXARNk6ThX5FW6xVSfDQYexZFOMvIu3XAY+BH4O4JcElEE6YbLwA9SBhg9RZFuuAsMyEO1cZGkI5sj5h2/L4JcWqVo0g31wAgp946SIkpHhpFjgboIcmlGUaUjC2TjZFgZFUWWjoifGFuPL7p0mvT4nRHk8pEySEfE/xJLhVlZpCP/XMcAh7JOpEzSkc3u4cDpLJMom3TDE+Bn4EZWCZRROrLtNySr7b+ySkd6uunxL0I3XGbpyLt9UugdqLJLN+wAFoRsUKV/YoVUDgdBpTcyEzgaoiGV3oiZtY4O8WmOSv+Se3LWjdcKA5XenFPALJ8NqPSWWQ9s8RVcpbfODF/VBSq9deqlTPuJ68AqvW1MAdNU10FVevuYGesmlwFVejJmA9dcBVPpyXgu+6xOPsFR6ckxK5LLXARS6ZVhzik7W20QlV4Z5nTWyfI7NSq9cs4Dy6sJoNLTsVQ+Lk6FSk/Ha5k0NaT5a5WenhNyBmXFqPTqmA/cqTSCSq+Ox3JuQUWo9Oox9e/HK4mi0qvnvWxqJ14iUOluMGP3zUkjqXR3LEx6fYVKd8cdOZemXVS6W9YkqZtR6W6plyWCNlHp7tnc3uEQKt09Zl1mSVtRVbofatu6IUGl+8FcxLK4tcgq3R91cjdIM1S6PxpkT7UZKt0vf7X06aRK90uD3G75BSrdP7VfH8av0v3zUo4m/4xKD8M6WSL4iEoPg7k0d5ttSaWH4w/bkkoPx0XgJCo9OBtR6cExk6WnKj0s5uOCOpUeGlj8AVTvsV6jOBbzAAAAAElFTkSuQmCC"/>
+  <path id="Rectangle_566_copy" data-name="Rectangle 566 copy" class="cls-1" d="M1507.34,121.928l12.73,12.728-1.41,1.414-12.73-12.728Zm11.27,0.063-12.62,12.615,1.4,1.4,12.62-12.615Z" transform="translate(-1442 -108)"/>
+</svg>
